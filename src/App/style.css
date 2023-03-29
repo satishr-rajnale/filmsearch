@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
 .director-name-input-box {
   height: 48px;
   width: 460px;
@@ -24,7 +30,9 @@
   width: 138px;
   border-radius: 10px;
   background-color: #FFBB4B;
-  box-shadow: 0 10px 50px 0 rgba(255,187,75,0.2);
+  color: #FFFFFF;
+
+  /* box-shadow: 0 10px 50px 0 rgba(255,187,75,0.2); */
   margin: auto;
   margin-top: 40px;
   cursor: pointer;
@@ -42,4 +50,40 @@
   position: relative;
   bottom: 7px;
   margin-left: 40px;
+}
+
+.film-details {
+  /* margin-top: 48px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 860px;
+  padding-top: 32px;
+  /* width: 160px; */
+
+}
+
+.box-detail {
+  background-color: #FFFFFF;
+  padding: 1.4rem  ;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+
+.title {
+  font-size: 16px;
+  color: #808080;
+  font-weight:500;
+  margin-bottom: 2.2rem;
+}
+
+.description {
+  font-size: 2rem;
+  color: darkblue;
+  font-weight:300;
+  margin-bottom: 2.2rem;
 }
