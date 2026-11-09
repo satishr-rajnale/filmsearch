@@ -87,3 +87,12 @@
   font-weight:300;
   margin-bottom: 2.2rem;
 }
+
+/*
+  Set main page background to blue as required by KAN-4.
+  Using !important to ensure this presentational change overrides the global
+  body background defined in src/style.css regardless of import order.
+*/
+body {
+  background-color: blue !important;
+}
